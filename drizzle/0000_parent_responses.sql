@@ -1,0 +1,5 @@
+CREATE TABLE parent_responses (
+  id TEXT PRIMARY KEY NOT NULL,
+  answers_json TEXT NOT NULL,
+  submitted_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
