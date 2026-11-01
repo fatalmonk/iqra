@@ -19,10 +19,10 @@ export default {
     if (!/^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i.test(data?.id) ||
         !data.answers || typeof data.answers !== 'object' || Array.isArray(data.answers)) return json({}, 400);
     const entries = Object.entries(data.answers);
-    if (!entries.length || entries.length > 20) return json({}, 400);
+    if (!entries.length || entries.length > 21) return json({}, 400);
     const answers = {};
     for (const [key, value] of entries) {
-      if (!/^(?:[1-9]|1[0-9]|20)$/.test(key) || !value || typeof value.note !== 'string' ||
+      if (!/^(?:[1-9]|1[0-9]|2[01])$/.test(key) || !value || typeof value.note !== 'string' ||
           value.note.length > 2000 || !Array.isArray(value.choices) || value.choices.length > 3 ||
           value.choices.some(choice => typeof choice !== 'string' || !choice.trim() || choice.length > 300) ||
           !(value.note.trim() || value.choices.length)) return json({}, 400);
