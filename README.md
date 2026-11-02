@@ -2,8 +2,8 @@
 
 Iqra is a proposed Qur’an and Arabic learning centre for children ages 5–12 in Percival Hill, Chattogram. The live website currently supports parent research; it is not an enrollment application.
 
-- **Live website:** [iqra-percival-hill-kickoff.silkyolive4.chatgpt.site](https://iqra-percival-hill-kickoff.silkyolive4.chatgpt.site/)
-- **Bengali parent questionnaire:** [Open questionnaire](https://iqra-percival-hill-kickoff.silkyolive4.chatgpt.site/parent-questions)
+- **Live website:** [iqra-percival-hill-kickoff.mac-alvi.chatgpt.site](https://iqra-percival-hill-kickoff.mac-alvi.chatgpt.site/)
+- **Bengali parent questionnaire:** [Open questionnaire](https://iqra-percival-hill-kickoff.mac-alvi.chatgpt.site/parent-questions)
 
 ## Repository contents
 
